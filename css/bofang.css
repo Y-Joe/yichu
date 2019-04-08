@@ -1,0 +1,23 @@
+.wrap > .content > .shang {
+}
+.wrap > .content > .zhong {
+}
+.wrap > .content > .xia {
+}
+.img1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  border-radius: 150px;
+  animation: zhuan 5s linear normal infinite forwards;
+}
+@keyframes zhuan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

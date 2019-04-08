@@ -1,0 +1,274 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main {
+  width: 100%;
+  /* padding-bottom: 1.5rem;
+  padding-top: 1.5rem; */
+  /* height: 800px; */
+  overflow: scroll;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  /* margin-bottom: 1.5rem; */
+}
+.main-content {
+  width: 100%;
+  /* margin-top: 1.5rem;
+  margin-bottom: 1.5rem; */
+  /* background-color: ; */
+  position: relative;
+}
+.main > .main-content > .top > img {
+  width: 8rem;
+}
+
+.main > .main-content > .top > .swiper-container {
+  width: 8rem;
+}
+.main > .main-content > .top > .swiper-container > .swiper-wrapper {
+  width: 100%;
+}
+.main
+  > .main-content
+  > .top
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide {
+  width: 100%;
+}
+.main
+  > .main-content
+  > .top
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > img {
+  width: 8rem;
+  height: 4rem;
+}
+
+.main > .main-content > .middle {
+  width: 8rem;
+  padding-left: 0.2rem;
+}
+.main > .main-content > .middle > ul {
+  width: 7.3rem;
+  height: 1rem;
+  border: 0 solid rgb(195, 187, 187);
+  box-shadow: 0 0.05rem 0.05rem 0.015rem rgba(177, 165, 165, 0.4) inset;
+  padding-top: 0.25rem;
+}
+.main > .main-content > .middle > ul > li {
+  float: left;
+  margin-right: 1rem;
+}
+.main > .main-content > .middle > ul > li:last-child {
+  float: left;
+  margin-right: 0rem;
+}
+.main > .main-content > .middle > ul > li:first-child {
+  float: left;
+  margin-right: 1rem;
+  margin-left: 0.6rem;
+}
+
+.main > .main-content > .middle > ul > li > a {
+  display: block;
+  float: left;
+  font-size: 0.4rem;
+  color: rgba(148, 148, 148, 0.808);
+}
+
+.main > .main-content > .bottom {
+  width: 8rem;
+  padding: 0.2rem;
+}
+
+.main > .main-content > .bottom > ul {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 0.3rem;
+}
+.main > .main-content > .bottom > ul > li {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+}
+.bottom > ul > li > div {
+  float: left;
+  display: block;
+}
+.bottom > ul > li > .shang {
+  width: 100%;
+  height: 0.4rem;
+  margin-top: 0.4rem;
+  border-left: 0.03rem solid rgb(87, 224, 172);
+}
+.bottom > ul > li > .shang > span {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  line-height: 0.4rem;
+  margin-left: 0.14rem;
+  color: rgb(87, 224, 172);
+}
+.bottom > ul > li > .shang > a {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  margin-left: 5rem;
+  line-height: 0.4rem;
+}
+.bottom > ul > li > .shang > img {
+  float: left;
+  width: 0.6rem;
+  margin-top: -0.12rem;
+  margin-left: 0.1rem;
+}
+.bottom > ul > li > .zhong {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.bottom > ul > li > .zhong > article {
+  float: left;
+  margin-left: 0.1rem;
+}
+.bottom > ul > li > .zhong > article > h3 {
+  display: block;
+  font-size: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.bottom > ul > li > .zhong > article > p {
+  font-size: 0.3rem;
+  color: rgba(20, 20, 20, 0.7);
+  line-height: 0.5rem;
+}
+.bottom > ul > li > .zhong > img {
+  float: left;
+  width: 3rem;
+  margin-left: 0.55rem;
+}
+.bottom > ul > li > .xia {
+  width: 100%;
+  margin-top: 0.5rem;
+  /* margin-bottom: 0.2rem; */
+}
+.bottom > ul > li > .xia > span {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  color: rgba(20, 20, 20, 0.7);
+}
+.bottom > ul > li > .xia > ul {
+  float: right;
+}
+.bottom > ul > li > .xia > ul > li {
+  float: left;
+  margin-left: 0.2rem;
+}
+.bottom > ul > li > .xia > ul > li > a {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(20, 20, 20, 0.7);
+}
+.bottom > ul > li > .xia > ul > li > span {
+  display: block;
+  font-size: 0.14rem;
+  /* color: rgba(20, 20, 20, 0.7); */
+}
+.active {
+  display: block;
+  font-size: 0.14rem;
+
+  color: rgb(47, 228, 219);
+}

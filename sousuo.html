@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/commen.css" />
+    <link rel="stylesheet" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/sousuo.css" />
+    <!-- <link rel="stylesheet" href="./css/shouye.css" />
+    <link rel="stylesheet" href="./css/shouye1.css" /> -->
+
+    <script>
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px';
+      // document.documentElement.style.fontSize =
+      //   document.documentElement.clientHeight / 7.5 + 'px';
+    </script>
+    <title>sousuo</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header class="clearfix">
+        <span class="iconfont icon-sousuo"></span>
+        <input
+          type="text"
+          value="搜索问答、文章、话题或用户"
+          style="font-size:0.28rem"
+        />
+        <a href="./shouye.html">取消</a>
+      </header>
+      <div class="content clearfix">
+        <a class="zuo" href="">内容</a>
+        <a class="you" href="">用户</a>
+        <ul>
+          <li>
+            <a class="iconfont icon-sousuo1" href=""> <span>最近浏览</span> </a>
+          </li>
+          <li>
+            <a class="iconfont icon-shijian" href=""> <span>浮世绘</span></a>
+          </li>
+        </ul>
+      </div>
+      <footer></footer>
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/jquery-3.3.1.js"></script>
+
+    <script>
+      $('input').on('touchend', function(e) {
+        e.preventDefault();
+        var int = $(this).val();
+        int = '';
+        $(this).val(int);
+        // $(this).css('border', 'none');
+      });
+    </script>
+  </body>
+</html>

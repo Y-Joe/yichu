@@ -1,0 +1,127 @@
+.wrap {
+  width: 100%;
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.wrap > header {
+  width: 7.5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/shouye/6.jpg);
+  background-size: 7.5rem auto;
+}
+.wrap > header > a:first-child {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(105, 205, 223, 0.7);
+  margin-left: 0.1rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+.wrap > header > a:last-child {
+  width: 0.7rem;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  float: left;
+  text-align: center;
+  line-height: 0.4rem;
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(82, 223, 211, 0.9);
+  margin-left: 5.4rem;
+  margin-top: 0.68rem;
+  margin-right: 0rem;
+  border: 0.01rem solid rgba(255, 255, 255, 0.9);
+}
+.wrap > .main {
+  width: 100%;
+  overflow: scroll;
+  margin-top: 5rem;
+}
+.wrap > .main > .main-content {
+  width: 100%;
+}
+.top > .shang {
+  width: 100%;
+  height: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.1rem;
+  margin-left: 0.4rem;
+  border-left: 0.03rem solid rgb(87, 224, 172);
+}
+.top > .shang > span {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  line-height: 0.4rem;
+  margin-left: 0.14rem;
+  color: rgb(87, 224, 172);
+}
+.top > .shang > a {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  margin-left: 4.85rem;
+  line-height: 0.4rem;
+  margin-top: 0.5rem;
+  /* position: relative; */
+}
+.top > .shang > a > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 4.41rem;
+  right: 0.4rem;
+  /* display: block;
+  font-size: 0.14rem;
+  float: left;
+  margin-left: 5.2rem;
+  line-height: 0.4rem; */
+}
+.main-content > .mid {
+  overflow: scroll;
+  width: 100%;
+  height: 6rem;
+}
+.main-content > .mid > .mids {
+  background-color: rgba(255, 253, 253, 0.6);
+  padding: 0.5rem;
+}
+.main-content > .mid > .mids > h3 {
+  display: block;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.main-content > .mid > .mids > span {
+  display: block;
+  font-size: 0.14em;
+  margin-bottom: 0.3rem;
+}
+.main-content > .mid > .mids > p {
+  font-size: 0.3rem;
+  color: rgba(88, 87, 87, 0.6);
+  line-height: 0.6rem;
+}
+.bottom > span:first-child {
+  display: block;
+  font-size: 0.4rem;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  color: rgba(88, 87, 87, 0.7);
+  float: left;
+}
+.bottom > span:last-child {
+  display: block;
+  font-size: 0.2rem;
+  margin-left: 0.1rem;
+  margin-top: 0.5rem;
+  color: rgba(88, 87, 87, 0.7);
+  float: left;
+}

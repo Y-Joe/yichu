@@ -1,0 +1,194 @@
+/* .wrap {
+  display: flex;
+  flex-direction: column;
+} */
+.wrap > header {
+  width: 100%;
+  height: 3.6rem;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  flex-shrink: 0;
+  box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(124, 124, 124, 0.5) inset;
+}
+.wrap > header > ul > li:nth-child(1) > a {
+  font-size: 0.3rem;
+  color: rgba(251, 251, 251, 0.6);
+}
+.wrap > header > ul > li:nth-child(2) > span {
+  font-size: 0.3rem;
+  color: #fff;
+}
+.wrap > header > ul > li:nth-child(3) > a {
+  font-size: 0.3rem;
+  color: rgba(251, 251, 251, 0.6);
+}
+.jianjie {
+  width: 100%;
+}
+.jianjie > img {
+  width: 1rem;
+  float: left;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+}
+.jianjie > article {
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.25rem;
+}
+.jianjie > article > a {
+  display: block;
+  color: rgba(245, 245, 245, 0.8);
+  font-size: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+.jianjie > article > span {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(36, 36, 36, 0.6);
+}
+.guanzhu {
+  width: 100%;
+  margin-top: 0.35rem;
+}
+.guanzhu > ul {
+  width: 100%;
+}
+.guanzhu > ul > li {
+  float: left;
+  margin-left: 1rem;
+  margin-right: 0.2rem;
+}
+.guanzhu > ul > li > span {
+  display: block;
+  font-size: 0.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(27, 27, 27, 0.5);
+}
+.guanzhu > ul > li > a {
+  display: block;
+  font-size: 0.2rem;
+  margin-left: 0.1rem;
+  color: rgba(27, 27, 27, 0.5);
+}
+section {
+  width: 100%;
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+  margin-top: 4rem;
+}
+section > .content-top {
+  width: 100%;
+  border-bottom: 0.26rem solid rgba(155, 155, 155, 0.05);
+}
+section > .content-top > span {
+  display: block;
+  float: left;
+  font-size: 0.14rem;
+  margin-right: 5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  color: rgba(80, 80, 80, 0.5);
+}
+section > .content-top > a {
+  display: block;
+  float: left;
+  font-size: 0.14rem;
+  color: rgba(80, 80, 80, 0.5);
+  margin-right: 0.4rem;
+}
+section > .content-top > ul {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+section > .content-top > ul > li {
+  float: left;
+  margin-left: 0.4rem;
+}
+section > .content-top > ul > li > img {
+  width: 2rem;
+  height: 2rem;
+}
+section > .content-top > ul > li > span {
+  display: block;
+  font-size: 0.26rem;
+}
+section > .content-bottom {
+  width: 100%;
+  /* margin-top: 0.5rem; */
+  padding-left: 0.3rem;
+}
+section > .content-bottom > .xuan {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 0.03rem solid rgba(119, 119, 119, 0.1);
+}
+section > .content-bottom > .xuan:nth-child(2) {
+  width: 100%;
+  height: 1.23rem;
+  border-bottom: 0.26rem solid rgba(155, 155, 155, 0.05);
+}
+section > .content-bottom > .xuan > span {
+  float: left;
+  display: block;
+  font-size: 0.2rem;
+  line-height: 1rem;
+  color: rgba(39, 39, 39, 0.6);
+}
+section > .content-bottom > .xuan > span:nth-child(3) {
+  display: block;
+  width: 2rem;
+  height: 1rem;
+  font-size: 0.2rem;
+  line-height: 1rem;
+  margin-left: 0.3rem;
+  margin-top: 0.05rem;
+  float: left;
+  color: rgba(39, 39, 39, 0.6);
+}
+section > .content-bottom > .xuan > span:nth-child(4) {
+  margin-left: 2rem;
+  margin-top: 0.05rem;
+}
+section > .content-bottom > .xuan > span:nth-child(5) {
+  margin-left: 0.2rem;
+  margin-top: 0.05rem;
+}
+section > .content-bottom > .xuan > span:nth-child(1) {
+  float: left;
+  display: block;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 0.5rem;
+  margin-left: 0.3rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: rgb(219, 221, 72);
+  margin-top: 0.26rem;
+  color: rgba(243, 243, 243, 0.6);
+}
+section > .content-bottom > .xuan > a {
+  float: left;
+  display: block;
+  font-size: 0.34rem;
+  font-weight: bold;
+  line-height: 1rem;
+  color: rgb(39, 39, 39);
+  margin-left: 0.2rem;
+}
+footer > ul > li:nth-child(5) > a > span {
+  color: rgb(38, 233, 191);
+}
+
+.wrap > footer > ul > li:nth-child(1) > a > span {
+  color: rgb(22, 22, 22);
+}
+.wrap > footer > ul > li:first-child > a > .iconfont {
+  color: rgb(28, 29, 29);
+}

@@ -1,0 +1,99 @@
+.wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+}
+header {
+  width: 100%;
+  height: 1.5rem;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 1.5rem;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  flex-shrink: 0;
+}
+
+section {
+  width: 100%;
+  overflow: scroll;
+  /* margin-top: 1.5rem; */
+  position: relative;
+}
+section > .neirong-top {
+  width: 100%;
+  background-color: rgba(114, 114, 114, 0.2);
+}
+section > .neirong-top > span {
+  font-size: 0.28rem;
+  color: rgba(39, 39, 39, 0.7);
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+  z-index: 1;
+}
+section > .neirong-top > input {
+  display: block;
+  width: 7rem;
+  height: 0.6rem;
+  border-radius: 0.1rem;
+  border: none;
+  padding-left: 0.6rem;
+  color: rgba(20, 20, 20, 0.5);
+  margin-left: 0.3rem;
+  float: left;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+  float: left;
+}
+section > ul {
+  width: 100%;
+}
+section > ul > li {
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+section > ul > li > img {
+  float: left;
+  width: 0.8rem;
+}
+section > ul > li > .article {
+  display: block;
+  float: left;
+  margin-left: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.03rem solid rgba(95, 95, 95, 0.3);
+}
+section > ul > li > .article > span:first-child {
+  color: rgb(47, 165, 86);
+  font-size: 0.3rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+section > ul > li > .article > p {
+  display: block;
+  font-size: 0.2rem;
+  color: rgba(70, 70, 70, 0.7);
+}
+section > ul > li > .article > span:nth-child(2) {
+  display: block;
+  float: right;
+  font-size: 0.1rem;
+  color: rgba(37, 37, 37, 0.3);
+  margin-left: 5rem;
+  margin-top: -0.4rem;
+}

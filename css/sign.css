@@ -1,0 +1,149 @@
+.container {
+  width: 7.5rem;
+  height: 100%;
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* background-image: url(../img/sign/登录页.jpg); */
+}
+.container > .head {
+  z-index: 1;
+}
+.container > .head > img {
+  position: absolute;
+  width: 7.5rem;
+  height: 100%;
+  z-index: 1;
+}
+.container > .head > .icon-cha {
+  display: block;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  font-size: 0.4rem;
+  z-index: 2;
+  /* font-weight: 100; */
+  color: rgba(248, 240, 240, 0.7);
+}
+.container > .head > .zhaohui {
+  display: block;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  font-size: 0.4rem;
+  z-index: 2;
+  font-size: 0.28rem;
+  /* font-weight: 100; */
+  color: rgba(248, 240, 240, 0.7);
+}
+.container > .content {
+  position: absolute;
+  width: 100%;
+  margin-top: 4.82rem;
+  z-index: 2;
+}
+.container > .content > .content-top > .icon-people_fill {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: 1.8rem;
+  margin-right: 0.1rem;
+  margin-top: 0.25rem;
+  float: left;
+  color: rgba(248, 248, 248, 0.6);
+}
+.container > .content > .content-bottom > .icon-ziyuanxhdpi {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: 1.8rem;
+  margin-right: 0.1rem;
+  margin-top: 0.25rem;
+  float: left;
+  color: rgba(248, 248, 248, 0.6);
+}
+.container > .content > .content-top > .zhanghao {
+  display: block;
+  width: 3.6rem;
+  height: 0.6rem;
+  /* margin-left: 2rem; */
+  border: none;
+  border-bottom: 0.02rem solid rgba(231, 227, 227, 0.8);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0.02rem;
+  color: rgba(253, 253, 253, 0.7);
+  font-size: 0.24rem;
+  float: left;
+}
+.container > .content > .content-bottom > .mima {
+  display: block;
+  width: 3.6rem;
+  height: 0.6rem;
+  margin-top: 0.4em;
+  /* margin-left: 2rem; */
+  border: none;
+  border-bottom: 0.02rem solid rgba(231, 227, 227, 0.8);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0.02rem;
+  color: rgba(253, 253, 253, 0.7);
+  font-size: 0.24rem;
+  float: left;
+}
+.container > .foot {
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  margin-top: 4.8rem;
+  z-index: 2;
+  margin-top: 4.8rem;
+}
+.container > .foot > ul > li > a {
+  display: block;
+  width: 4rem;
+  height: 0.8rem;
+  background-color: rgba(246, 243, 243, 0.5);
+  font-size: 0.32rem;
+  color: rgb(255, 255, 255);
+  margin-left: 1.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+.container > .foot > ul {
+  display: block;
+  width: 100%;
+}
+.container > .foot > ul > li {
+  display: block;
+  width: 100%;
+}
+.container > .foot > ul > li > span {
+  display: block;
+  width: 1rem;
+  height: 0.4rem;
+  margin-top: 0.4rem;
+  font-size: 0.24rem;
+  text-align: center;
+  margin-left: 3.3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.container > .link {
+  position: absolute;
+  width: 100%;
+  top: 4.5rem;
+  margin-top: 4.8rem;
+  z-index: 2;
+  margin-top: 4.8rem;
+}
+.container > .link > a:first-child {
+  font-size: 0.32rem;
+  margin-left: 1.8rem;
+}
+.container > .link > a {
+  margin-left: 0.7rem;
+}
+.container > .link > a > span {
+  font-size: 0.7rem;
+  color: rgba(253, 253, 253, 0.8);
+}

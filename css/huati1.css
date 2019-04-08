@@ -1,0 +1,72 @@
+.wrap > header > ul > .dongtai > .dong {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(19, 19, 19, 0.8);
+}
+.wrap > header > ul > .liaotian > .liao {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(238, 238, 238, 0.8);
+}
+.wrap > header > ul > .dongtai > span {
+  display: block;
+  font-size: 0.03rem;
+  color: rgba(20, 22, 22, 0.6);
+}
+.wrap > header > ul > .liaotian > span {
+  display: block;
+  margin-left: 0rem;
+  font-size: 0.03rem;
+  color: rgba(242, 248, 248, 0.8);
+}
+
+.content > ul {
+  width: 100%;
+}
+.content > ul > li {
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.content > ul > li > img {
+  float: left;
+  width: 0.8rem;
+}
+.content > ul > li > .article {
+  display: block;
+  float: left;
+  margin-left: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.03rem solid rgba(95, 95, 95, 0.3);
+}
+.content > ul > li > .article > span:first-child {
+  color: rgb(47, 165, 86);
+  font-size: 0.3rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.content > ul > li > .article > p {
+  display: block;
+  font-size: 0.2rem;
+  color: rgba(70, 70, 70, 0.7);
+}
+.content > ul > li > .article > span:nth-child(2) {
+  display: block;
+  float: right;
+  font-size: 0.1rem;
+  color: rgba(37, 37, 37, 0.3);
+  margin-left: 5rem;
+  margin-top: -0.4rem;
+}
+
+.wrap > footer > ul > li:nth-child(2) > a > span {
+  color: rgb(5, 5, 5);
+}
+.wrap > footer > ul > li:nth-child(5) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(4) > a > span {
+  color: rgb(38, 233, 191);
+}

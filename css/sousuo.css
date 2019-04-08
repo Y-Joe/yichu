@@ -1,0 +1,92 @@
+.wrap {
+  width: 7.5rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url(../img/sousuo/1.jpg);
+  /* 设置背景图大小？ */
+}
+header {
+  width: 100%;
+  position: relative;
+}
+header > span:first-child {
+  font-size: 0.28rem;
+  color: rgba(39, 39, 39, 0.7);
+  position: absolute;
+  left: 0.5rem;
+  top: 0.8rem;
+  z-index: 1;
+}
+header > input {
+  display: block;
+  width: 5.4rem;
+  height: 0.6rem;
+  border-radius: 0.1rem;
+  border: none;
+  padding-left: 0.6rem;
+  color: rgba(20, 20, 20, 0.5);
+  margin-left: 0.3rem;
+  float: left;
+  margin-top: 0.6rem;
+}
+header > a {
+  float: left;
+  display: block;
+  font-size: 0.28rem;
+  color: rgba(241, 241, 241, 0.7);
+  margin-top: 0.68rem;
+  margin-left: 0.2rem;
+  z-index: 1;
+}
+.content {
+  width: 100%;
+}
+.content > a {
+  display: block;
+  width: 3.5rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  border-radius: 0.1rem;
+  float: left;
+  font-size: 0.14rem;
+  margin-top: 0.2rem;
+}
+.content > .zuo {
+  display: block;
+  color: rgb(253, 253, 253);
+  background-color: rgb(40, 241, 191);
+  margin-left: 0.2rem;
+  margin-right: 0.1rem;
+}
+.content > .you {
+  display: block;
+  color: rgba(20, 20, 20, 0.5);
+  background-color: rgb(255, 255, 255);
+}
+.content > ul {
+  width: 7.5rem;
+}
+.content > ul > li {
+  width: 100%;
+}
+.content > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 1rem;
+  border-bottom: 0.01rem solid rgba(255, 255, 255, 0.5);
+  font-size: 0.3rem;
+  color: rgba(212, 212, 212, 0.8);
+  float: left;
+  line-height: 1rem;
+  padding-left: 0.4rem;
+}
+.content > ul > li > a > span {
+  margin-left: 0.2rem;
+  font-size: 0.3rem;
+}
+footer {
+  width: 100%;
+}

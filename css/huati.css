@@ -1,0 +1,231 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 1.5rem;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+  /* z-index: 3; */
+  box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(124, 124, 124, 0.5) inset;
+}
+header > ul {
+  margin-top: 0.6rem;
+  margin-left: 0.5rem;
+}
+header > ul > li {
+  float: left;
+  margin-right: 1.2rem;
+}
+header > ul > .dongtai {
+  margin-left: 2rem;
+}
+header > ul > .liaotian {
+  margin-left: 0rem;
+}
+header > ul > li > .dong {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(238, 238, 238, 0.8);
+}
+header > ul > li > .liao {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(19, 19, 19, 0.8);
+}
+
+header > ul > .dongtai > span {
+  display: block;
+  font-size: 0.03rem;
+  color: rgba(242, 248, 248, 0.8);
+}
+header > ul > .liaotian > span {
+  display: block;
+  margin-left: 0rem;
+  font-size: 0.03rem;
+  color: rgba(20, 22, 22, 0.6);
+}
+header > ul > li > a {
+  display: block;
+  font-size: 0.4rem;
+  color: rgba(242, 248, 248, 0.8);
+}
+
+section {
+  width: 100%;
+  overflow: scroll;
+  flex-grow: 1;
+  margin-top: 1.5rem;
+}
+.content {
+  width: 100%;
+  /* flex-shrink: 0; */
+}
+
+.swiper-container {
+  width: 100%;
+  height: 4rem;
+}
+.swiper-container > .swiper-wrapper {
+  width: 100%;
+}
+.swiper-container > .swiper-wrapper > .swiper-slide {
+  width: 100%;
+}
+.swiper-container > .swiper-wrapper > .swiper-slide > img {
+  width: 7.5rem;
+  height: 4rem;
+}
+
+.content > .content-bottom {
+  width: 100%;
+  padding: 0.3rem;
+}
+.content > .content-bottom > .zuo {
+  float: left;
+}
+.content > .content-bottom > .zuo > img {
+  width: 0.5rem;
+  float: left;
+  margin-left: 0.1rem;
+  margin-right: 0.2rem;
+}
+.content > .content-bottom > .zuo > span {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(53, 53, 53, 0.6);
+  margin-top: 0.1rem;
+  float: left;
+}
+
+.content > .content-bottom > h3 {
+  display: block;
+  font-size: 0.14rem;
+  margin-top: 0.6rem;
+  margin-left: -1.3rem;
+  font-size: 0.36rem;
+  float: left;
+}
+.content > .content-bottom > p {
+  display: block;
+  font-size: 0.25rem;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  line-height: 0.5rem;
+}
+.content > .xia {
+  width: 100%;
+  margin-top: 0.5rem;
+  /* margin-bottom: 0.2rem; */
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.content > .xia > span {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  color: rgba(20, 20, 20, 0.7);
+}
+.content > .xia > ul {
+  float: right;
+}
+.content > .xia > ul > li {
+  float: left;
+  margin-left: 0.2rem;
+}
+.content > .xia > ul > li > a {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(20, 20, 20, 0.7);
+}
+.content > .xia > ul > li > span {
+  display: block;
+  font-size: 0.14rem;
+}
+.active {
+  color: rgba(20, 181, 202, 0.7);
+}
+footer {
+  /* position: fixed; */
+  width: 100%;
+  height: 1.5rem;
+  background-color: #fff;
+  /* bottom: 0;
+  left: 0; */
+  flex-shrink: 0;
+}
+footer > ul {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+footer > ul > li {
+  margin-right: 1rem;
+  float: left;
+}
+footer > ul > li:nth-child(5) {
+  margin-right: 0rem;
+  float: left;
+}
+footer > ul > li:nth-child(3) {
+  margin-top: -0.1rem;
+}
+footer > ul > li:nth-child(3) > a > span {
+  display: block;
+  line-height: 0.8rem;
+  text-align: center;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid #2fd7c8;
+  background-color: #2fd7c8;
+  border-radius: 50%;
+  font-size: 0.3rem;
+  color: #fff;
+}
+footer > ul > li:nth-child(4) > a > span {
+  color: rgb(38, 233, 191);
+}
+footer > ul > li:nth-child(1) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(2) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(5) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(5) {
+  float: left;
+}
+footer > ul > li > a {
+  display: block;
+}
+footer > ul > li > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+}
+footer > ul > li:first-child > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(5, 5, 5);
+}
+footer > ul > li > a > span:nth-child(2) {
+  display: block;
+  font-size: 0.14rem;
+  margin-left: 0.06rem;
+}

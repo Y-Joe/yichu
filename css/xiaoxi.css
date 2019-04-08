@@ -1,0 +1,282 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 1.5rem;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+  /* z-index: 3; */
+  box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(124, 124, 124, 0.5) inset;
+}
+header > ul {
+  margin-top: 0.6rem;
+  margin-left: 0.5rem;
+}
+header > ul > li {
+  float: left;
+  margin-right: 1.2rem;
+}
+header > ul > .dongtai {
+  margin-left: 2rem;
+}
+header > ul > .liaotian {
+  margin-left: 0rem;
+}
+header > ul > li > .dong {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(238, 238, 238, 0.8);
+}
+header > ul > li > .liao {
+  display: block;
+  font-size: 0.26rem;
+  float: left;
+  color: rgba(19, 19, 19, 0.8);
+}
+
+header > ul > .dongtai > span {
+  display: block;
+  font-size: 0.03rem;
+  color: rgba(242, 248, 248, 0.8);
+}
+header > ul > .liaotian > span {
+  display: block;
+  margin-left: 0rem;
+  font-size: 0.03rem;
+  color: rgba(20, 22, 22, 0.6);
+}
+header > ul > li > a {
+  display: block;
+  font-size: 0.4rem;
+  color: rgba(242, 248, 248, 0.8);
+}
+section {
+  width: 100%;
+  overflow: scroll;
+  flex-grow: 1;
+  margin-top: 1.5rem;
+  /* padding-top: 1.5rem; */
+}
+.content {
+  width: 100%;
+  /* margin-top: 1.5rem; */
+  /* flex-shrink: 0; */
+}
+.content > .content-top {
+  width: 9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid rgba(93, 93, 93, 0.1);
+}
+.content > .content-top > span {
+  display: block;
+  font-size: 0.14rem;
+  width: 100%;
+  float: left;
+  padding-left: 0.4rem;
+  padding-top: 0.3rem;
+  margin-bottom: 0.25rem;
+  color: rgba(93, 93, 93, 0.5);
+}
+.content > .content-top > img {
+  width: 1.5rem;
+  float: left;
+  margin-left: 0.4rem;
+  margin-right: 0.3rem;
+}
+.content > .content-top > article {
+  float: left;
+}
+.content > .content-top > article > h3 {
+  display: block;
+  font-size: 0.3rem;
+  font-weight: bold;
+}
+.content > .content-top > article > span {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(87, 85, 85, 0.6);
+}
+.content > .content-top > article > p {
+  margin-top: 0.5rem;
+  font-size: 0.14rem;
+  color: rgba(80, 80, 80, 0.4);
+}
+.content > .content-top > article > p > span {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(80, 80, 80, 0.8);
+}
+.content > .content-middle {
+  width: 9rem;
+  padding: 0.4rem;
+  border-bottom: 0.1rem solid rgba(93, 93, 93, 0.1);
+}
+.content > .content-middle > span {
+  display: block;
+  float: left;
+  font-size: 0.14rem;
+  margin-right: 4.5rem;
+  color: rgba(80, 80, 80, 0.5);
+}
+.content > .content-middle > a {
+  display: block;
+  float: left;
+  font-size: 0.14rem;
+  color: rgba(80, 80, 80, 0.5);
+  margin-right: 1.4rem;
+}
+.content > .content-middle > ul {
+  width: 8rem;
+}
+.content > .content-middle > ul > li {
+  float: left;
+}
+.content > .content-middle > ul > li > img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 0.4rem;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+}
+.content > .content-middle > ul > li > h3 {
+  width: 2.4rem;
+  display: block;
+  font-size: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.content > .content-middle > ul > li > span {
+  text-align: center;
+  width: 2.4rem;
+  display: block;
+  font-size: 0.2rem;
+  color: rgba(73, 73, 73, 0.6);
+}
+.content > .content-bottom {
+  width: 100%;
+  padding: 0.3rem;
+}
+.content > .content-bottom > .zuo {
+  float: left;
+}
+.content > .content-bottom > .zuo > img {
+  width: 0.5rem;
+  float: left;
+  margin-left: 0.1rem;
+  margin-right: 0.2rem;
+}
+.content > .content-bottom > .zuo > span {
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(53, 53, 53, 0.6);
+  margin-top: 0.1rem;
+  float: left;
+}
+.content > .content-bottom > .you {
+  float: right;
+}
+.content > .content-bottom > .you > img {
+  width: 0.7rem;
+  height: 0.7rem;
+  float: left;
+  margin-top: 0.2rem;
+}
+.content > .content-bottom > h3 {
+  display: block;
+  font-size: 0.14rem;
+  margin-top: 0.6rem;
+  margin-left: -1.3rem;
+  font-size: 0.36rem;
+  float: left;
+}
+.content > .content-bottom > p {
+  display: block;
+  font-size: 0.25rem;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  line-height: 0.5rem;
+}
+footer {
+  /* position: fixed; */
+  width: 100%;
+  height: 1.5rem;
+  background-color: #fff;
+  /* bottom: 0;
+  left: 0; */
+  flex-shrink: 0;
+}
+footer > ul {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+footer > ul > li {
+  margin-right: 1rem;
+  float: left;
+}
+footer > ul > li:nth-child(5) {
+  margin-right: 0rem;
+  float: left;
+}
+footer > ul > li:nth-child(3) {
+  margin-top: -0.1rem;
+}
+footer > ul > li:nth-child(3) > a > span {
+  display: block;
+  line-height: 0.8rem;
+  text-align: center;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid #2fd7c8;
+  background-color: #2fd7c8;
+  border-radius: 50%;
+  font-size: 0.3rem;
+  color: #fff;
+}
+footer > ul > li:nth-child(2) > a > span {
+  color: rgb(38, 233, 191);
+}
+footer > ul > li:nth-child(1) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(4) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(5) > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:nth-child(5) {
+  float: left;
+}
+footer > ul > li > a {
+  display: block;
+}
+footer > ul > li > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+}
+footer > ul > li:first-child > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(5, 5, 5);
+}
+footer > ul > li > a > span:nth-child(2) {
+  display: block;
+  font-size: 0.14rem;
+  margin-left: 0.06rem;
+}

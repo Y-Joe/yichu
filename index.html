@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/commen.css" />
+    <script>
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px';
+      // document.documentElement.style.fontSize =
+      //   document.documentElement.clientHeight / 7.5 + 'px';
+    </script>
+    <title>index</title>
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/index/1.jpg" alt="" />
+          <a href="./sign.html">跳过</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/index/2.jpg" alt="" /><a href="./sign.html">跳过</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/index/3.jpg" alt="" /><a href="./sign.html">跳过</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/index/4.jpg" alt="" />
+          <a href="./sign.html">来到一处</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/zepto.min.js"></script>
+
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        autoplay: false //可选选项，自动滑动
+      });
+    </script>
+  </body>
+</html>

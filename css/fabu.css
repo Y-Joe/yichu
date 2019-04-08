@@ -1,0 +1,86 @@
+.wrap {
+  width: 7.5rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  /* 设置背景图大小？ */
+}
+header {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  padding-bottom: 0.2rem;
+  box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(124, 124, 124, 0.5) inset;
+}
+header > a:first-child {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(39, 39, 39, 0.7);
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+header > a:last-child {
+  width: 1.2rem;
+  height: 0.4rem;
+  border: 0.02rem solid rgba(54, 54, 54, 0.4);
+  border-radius: 0.2rem;
+  float: right;
+  text-align: center;
+  line-height: 0.4rem;
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(54, 54, 54, 0.4);
+  margin-top: 0.68rem;
+  margin-right: 0.3rem;
+  z-index: 1;
+}
+.content {
+  width: 100%;
+  padding: 0.3rem;
+}
+.content > .shang {
+  display: block;
+  font-size: 0.32rem;
+  color: rgb(49, 202, 169);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.content > .zhong {
+  display: block;
+  font-size: 0.14rem;
+  color: rgb(49, 202, 169);
+  margin-left: 5rem;
+  margin-bottom: 0.3rem;
+}
+.content > .xia {
+  display: block;
+  width: 7rem;
+  height: 6rem;
+  border-radius: 0.15rem;
+  font-size: 0.14rem;
+  color: rgba(11, 12, 12, 0.7);
+  background-color: rgba(115, 202, 191, 0.3);
+  padding: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.content > a {
+  width: 0.8rem;
+  height: 0.4rem;
+  border: 0.02rem solid rgba(61, 221, 213, 0.4);
+  border-radius: 0.2rem;
+  float: right;
+  text-align: center;
+  line-height: 0.4rem;
+  display: block;
+  font-size: 0.14rem;
+  color: rgba(61, 221, 213, 0.4);
+}
+
+footer {
+  width: 100%;
+}

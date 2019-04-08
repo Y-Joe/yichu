@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- <link rel="stylesheet" href="./css/commen.css" /> -->
+  <link rel="stylesheet" href="./css/iconfont.css" />
+  <link rel="stylesheet" href="./css/shouye.css" />
+  <!-- <link rel="stylesheet" href="./css/shouye1.css" /> -->
+  <link rel="stylesheet" href="./css/swiper.min.css" />
+  <link rel="stylesheet" href="./css/yinyue.css" />
+
+  <script>
+    // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+    document.documentElement.style.fontSize =
+      document.documentElement.clientWidth / 7.5 + 'px';
+      // document.documentElement.style.fontSize =
+      //   document.documentElement.clientHeight / 7.5 + 'px';
+  </script>
+  <title>yinyue</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="clearfix">
+      <a href="./shouye.html" class="iconfont icon-jiantou"></a>
+    
+      <a href="./fabu1.html">音乐</a>
+    </header>
+
+    <div class="main">
+      <div class="main-content">
+        <div class="top">
+          <div class="shang clearfix">
+            <span>音乐频道</span>
+            <a href="">...</a>
+            
+          </div>
+          <div class="swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="0">
+                <img src="./img/shouye/1.jpg" alt="" />
+                <img src="./img/shouye/6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="1" data-swiper-column="0">
+                <img src="./img/shouye/6.jpg" alt="" />
+                <img src="./img/shouye/1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="1">
+                <img src="./img/shouye/1.jpg" alt="" />
+                <img src="./img/shouye/6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide"
+               data-swiper-row="1" data-swiper-column="1">
+                <img src="./img/shouye/6.jpg" alt="" />
+                <img src="./img/shouye/3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="2">
+                <img src="./img/shouye/3.jpg" alt="" />
+                <img src="./img/hu/1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide"
+              data-swiper-row="1" data-swiper-column="2">
+                <img src="./img/hu/1.jpg" alt="" />
+                <img src="./img/shouye/1.jpg" alt="" />
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="shang clearfix">
+            <span>音乐频道</span>
+            <a href="">...</a>
+          </div>
+          <div class="swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="0">
+                <a href="./bofang.html">
+                <img src="./img/shouye/1.jpg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide" data-swiper-row="1" data-swiper-column="0">
+                <img src="./img/shouye/6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="1">
+                <img src="./img/shouye/1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="1" data-swiper-column="1">
+                <img src="./img/shouye/6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="2">
+                <img src="./img/shouye/3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="1" data-swiper-column="2">
+                <img src="./img/hu/1.jpg" alt="" />
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="bottom clearfix">
+          <div class="shang clearfix">
+            <span>音乐杂志</span>
+            <a href="">...</a>
+          </div>
+          <div class="swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-swiper-row="0" data-swiper-column="2">
+                <img src="./img/shouye/3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide" data-swiper-row="1" data-swiper-column="2">
+                <img src="./img/hu/1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  
+  </div>
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/jquery-3.3.1.js"></script>
+  <script src="./js/swiper.min.js"></script>
+
+  <script>
+    var mySwiper = new Swiper('.bottom>.swiper-container', {
+      slidesPerView: 2,
+      // slidesPerGroup: 3,
+      spaceBetween:0,
+    })
+    var mySwiper1 = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        // spaceBetween: 0,
+      })
+  </script>
+</body>
+
+</html>
