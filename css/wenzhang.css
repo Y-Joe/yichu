@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+
+  left: 0;
+  right: 0;
+  /* background-color: rgba(229, 178, 236, 0.3); */
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: column;
+}
+.wrap > header {
+  width: 100%;
+  height: 1.5rem;
+  background: linear-gradient(#2fd7c8, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+  border-bottom: 0.1rem solid hsla(73, 19%, 71%, 0.4);
+  box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(124, 124, 124, 0.5) inset;
+}
+.wrap > header > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap > header > ul > li {
+  display: block;
+  margin-right: 2.5rem;
+  margin-left: 0.2rem;
+  margin-top: 0.7rem;
+}
+.wrap > header > ul > li > a {
+  display: block;
+  font-size: 0.5rem;
+}
+.wrap > header > ul > li > span {
+  display: block;
+  font-size: 0.3rem;
+  color: rgba(20, 22, 22, 0.6);
+}
+section {
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+section > .section-inner {
+  overflow: scroll;
+}
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.1rem solid rgba(167, 167, 167, 0.1);
+}
+.shang {
+  width: 100%;
+  height: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0.3rem;
+  border-left: 0.03rem solid rgb(87, 224, 172);
+}
+.shang > span {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  line-height: 0.4rem;
+  margin-left: 0.14rem;
+  color: rgb(87, 224, 172);
+}
+.shang > a {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  margin-left: 6rem;
+  line-height: 0.4rem;
+}
+.content-bottom > .shang > a {
+  display: block;
+  font-size: 0.14rem;
+  float: left;
+  margin-left: 5.5rem;
+  line-height: 0.4rem;
+}
+.content > .contain > .wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.1rem;
+}
+.content > .contain > .wrapper > .slide {
+}
+.content > .contain > .wrapper > .slide > a {
+  display: block;
+  width: 2.4rem;
+  height: 2rem;
+  margin-right: 0.15rem;
+}
+.content > .contain > .wrapper > .slide > a > img {
+  width: 2.4rem;
+  height: 2rem;
+  margin-right: 0.15rem;
+}
+.content > .contain > .wrapper > .slide > img:nth-child(3) {
+  width: 2.4rem;
+  height: 2rem;
+  margin-right: 0rem;
+}
+.content-bottom > .xia {
+  display: flex;
+  flex-direction: row;
+}
+.content-bottom > .xia > .zuo {
+  margin-left: 0.3rem;
+}
+.content-bottom > .xia > .zuo > img {
+  width: 2rem;
+  height: 2rem;
+}
+.content-bottom > .xia > .you {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.2rem;
+}
+.content-bottom > .xia > .you > h3 {
+  font-size: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+.content-bottom > .xia > .you > span {
+  font-size: 0.14rem;
+  color: rgba(104, 104, 104, 0.7);
+}
+.content-bottom > .xia > .you > ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.4rem;
+  margin-top: -0.2rem;
+}
+.content-bottom > .xia > .you > ul > li {
+  margin-left: 0.15rem;
+}
+.content-bottom > .xia > .you > ul > li > a {
+  font-size: 0.14rem;
+  color: rgba(104, 104, 104, 0.5);
+}
+.content-bottom > .xia > .you > ul > li > span {
+  font-size: 0.14rem;
+}
+.active {
+  font-size: 0.14rem;
+  color: rgba(75, 207, 190, 0.5);
+}
+footer {
+  width: 100%;
+  height: 1.5rem;
+  background-color: #fff;
+  width: 100%;
+  height: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+footer > ul {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+footer > ul > li {
+  margin-right: 1rem;
+  float: left;
+}
+footer > ul > li:nth-child(5) {
+  margin-right: 0rem;
+  float: left;
+}
+footer > ul > li:nth-child(3) {
+  margin-top: -0.1rem;
+}
+footer > ul > li:nth-child(3) > a > span {
+  display: block;
+  line-height: 0.8rem;
+  text-align: center;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid #2fd7c8;
+  background-color: #2fd7c8;
+  border-radius: 50%;
+  font-size: 0.3rem;
+  color: #fff;
+}
+footer > ul > li:nth-child(1) > a > span {
+  color: rgb(38, 233, 191);
+}
+footer > ul > li:nth-child(5) {
+  float: left;
+}
+footer > ul > li > a {
+  display: block;
+}
+footer > ul > li > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(5, 5, 5);
+}
+footer > ul > li > a > span {
+  color: rgb(5, 5, 5);
+}
+footer > ul > li:first-child > a > .iconfont {
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(38, 233, 191);
+}
+footer > ul > li > a > span:nth-child(2) {
+  display: block;
+  font-size: 0.14rem;
+  margin-left: 0.06rem;
+}

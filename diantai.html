@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/commen.css" />
+    <link rel="stylesheet" href="./css/iconfont.css" />
+    <!-- <link rel="stylesheet" href="./css/shouye.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/xiaoxi.css" /> -->
+    <link rel="stylesheet" href="./css/diantai.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <script>
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px';
+    </script>
+    <title>diantai</title>
+  </head>
+
+  <body>
+    <div class="wrap clearfix">
+      <header class="clearfix">
+        <ul class="clearfix">
+          <li class="dongtai clearfix">
+            <a class="iconfont icon-jiantou" href="./shouye.html"></a>
+          </li>
+          <li class="liaotian clearfix">
+            <a class="liao" href="./huati1.html">电台</a>
+          </li>
+        </ul>
+      </header>
+      <section>
+        <div class="section-inner">
+          <div class="content">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/huati/1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/shouye/3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/huati/3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/huati/4.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tuijian">
+            <a href="" style="color:black;">推荐</a>
+            <a href="">分类</a>
+          </div>
+          <div class="content-bottom">
+            <div class="shang">
+              <span>良品</span>
+              <span>FOISDOI</span>
+              <img src="./img/xiaoxi/6.jpg" alt="" />
+            </div>
+            <div class="xia">
+              <div class="you">
+                <h3>有点主见不好吗</h3>
+                <span>
+                  小米没有什么输入6位数的代码,检测手机硬件,在拨号键盘输。查看手机和电池信息,在拨
+                </span>
+              </div>
+              <div class="zuo clearfix">
+                <img src="./img/hu/2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="bottom clearfix">
+              <span>05-20 20:56</span>
+              <ul class="clearfix">
+                <li class="clearfix">
+                  <a class="iconfont icon-liulan" href="">1.8K</a>
+                </li>
+                <li class="clearfix">
+                  <span class="iconfont icon-zansel">1.8K</span>
+                </li>
+                <li class="clearfix">
+                  <a class="iconfont icon-pinglun" href="">1.8K</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content-bottom">
+            <div class="shang">
+              <span>良品</span>
+              <span>FOISDOI</span>
+              <img src="./img/xiaoxi/6.jpg" alt="" />
+            </div>
+            <div class="xia">
+              <div class="you">
+                <h3>有点主见不好吗</h3>
+                <span>
+                  小米没有什么输入6位数的代码,检测手机硬件,在拨号键盘输。查看手机和电池信息,在拨
+                </span>
+              </div>
+              <div class="zuo clearfix">
+                <img src="./img/hu/2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="bottom clearfix">
+              <span>05-20 20:56</span>
+              <ul class="clearfix">
+                <li class="clearfix">
+                  <a class="iconfont icon-liulan" href="">1.8K</a>
+                </li>
+                <li class="clearfix">
+                  <span class="iconfont icon-zansel">1.8K</span>
+                </li>
+                <li class="clearfix">
+                  <a class="iconfont icon-pinglun" href="">1.8K</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        autoplay: true //可选选项，自动滑动
+      });
+      var mySwiper1 = new Swiper('.swiper-container', {
+        autoplay: {
+          delay: 2000 //1秒切换一次
+        }
+      });
+
+      $('ul > li > span').on('touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+      });
+    </script>
+  </body>
+</html>

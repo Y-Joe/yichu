@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/commen.css" />
+    <link rel="stylesheet" href="./css/iconfont.css" />
+    <!-- <link rel="stylesheet" href="./css/shouye.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/xiaoxi.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/huati.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/wenzhang.css" /> -->
+    <link rel="stylesheet" href="./css/zaoan.css" />
+
+    <script>
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px';
+    </script>
+    <title>zaoan</title>
+  </head>
+
+  <body>
+    <div class="wrap clearfix">
+      <header class="clearfix">
+        <ul class="clearfix">
+          <li class="dongtai clearfix">
+            <a class="iconfont icon-jiantou" href="./wenzhang.html"></a>
+          </li>
+          <li class="liaotian clearfix">
+            <span>早安故事</span>
+          </li>
+          <li class="liaotian clearfix">
+            <span>HOT</span>
+          </li>
+          <li class="liaotian clearfix">
+            <span>NEW</span>
+          </li>
+        </ul>
+      </header>
+      <section>
+        <div class="content clearfix">
+          <div class="biaotou">
+            <img src="./img/xiaoxi/b.png" alt="" />
+            <div>
+              <span>机制的美少女</span>
+              <span>2017/06/16</span>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="zuo clearfix">
+              <h3>另一个生日</h3>
+              <span
+                >马茉莉和苏小盒阿霍德，<br />
+                五大淮河为的哥哥祈祷</span
+              >
+            </div>
+            <div class="you clearfix">
+              <img src="./img/wode/2.png" alt="" />
+            </div>
+          </div>
+          <ul class="clearfix">
+            <li class="clearfix">
+              <a class="iconfont icon-liulan" href="">1.8K</a>
+            </li>
+            <li class="clearfix">
+              <span class="iconfont icon-zansel">112</span>
+            </li>
+            <li class="clearfix">
+              <a class="iconfont icon-pinglun" href="">6</a>
+            </li>
+          </ul>
+          <div class="biaotou">
+            <img src="./img/xiaoxi/b.png" alt="" />
+            <div>
+              <span>机制的美少女</span>
+              <span>2017/06/16</span>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="zuo clearfix">
+              <h3>另一个生日</h3>
+              <span
+                >马茉莉和苏小盒阿霍德，<br />
+                五大淮河为的哥哥祈祷</span
+              >
+            </div>
+            <div class="you clearfix">
+              <img src="./img/wode/2.png" alt="" />
+            </div>
+          </div>
+          <ul class="clearfix">
+            <li class="clearfix">
+              <a class="iconfont icon-liulan" href="">1.8K</a>
+            </li>
+            <li class="clearfix">
+              <span class="iconfont icon-zansel">112</span>
+            </li>
+            <li class="clearfix">
+              <a class="iconfont icon-pinglun" href="">6</a>
+            </li>
+          </ul>
+          <div class="biaotou">
+            <img src="./img/xiaoxi/b.png" alt="" />
+            <div>
+              <span>机制的美少女</span>
+              <span>2017/06/16</span>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="zuo clearfix">
+              <h3>另一个生日</h3>
+              <span
+                >马茉莉和苏小盒阿霍德，<br />
+                五大淮河为的哥哥祈祷</span
+              >
+            </div>
+            <div class="you clearfix">
+              <img src="./img/wode/2.png" alt="" />
+            </div>
+          </div>
+          <ul class="clearfix">
+            <li class="clearfix">
+              <a class="iconfont icon-liulan" href="">1.8K</a>
+            </li>
+            <li class="clearfix">
+              <span class="iconfont icon-zansel">112</span>
+            </li>
+            <li class="clearfix">
+              <a class="iconfont icon-pinglun" href="">6</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      var num;
+      $('ul > li > span').on('touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+        num = $(this).html();
+        console.log(num);
+
+        if (num === '112') {
+          $(this).text(113);
+        } else {
+          $(this).text(112);
+        }
+      });
+    </script>
+  </body>
+</html>

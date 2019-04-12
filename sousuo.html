@@ -26,7 +26,8 @@
         <span class="iconfont icon-sousuo"></span>
         <input
           type="text"
-          value="搜索问答、文章、话题或用户"
+          placeholder="搜索问答、文章、话题或用户"
+          value=""
           style="font-size:0.28rem"
         />
         <a href="./shouye.html">取消</a>
@@ -50,13 +51,14 @@
     <script src="./js/jquery-3.3.1.js"></script>
 
     <script>
-      $('input').on('touchend', function(e) {
-        e.preventDefault();
-        var int = $(this).val();
-        int = '';
-        $(this).val(int);
-        // $(this).css('border', 'none');
-      });
+      // var int;
+      // $('input').on('touchend', function(e) {
+      //   e.preventDefault();
+      //   int = $(this).val();
+      //   int = '';
+      //   $(this).val(int);
+      //   // $(this).css('border', 'none');
+      // });
     </script>
   </body>
 </html>
